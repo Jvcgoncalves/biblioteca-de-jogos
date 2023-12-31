@@ -45,3 +45,19 @@ input {
 .games h2 {
   margin: 0;
 }
+
+.games-box{
+ grid-template-columns: repeat(3,1fr);
+
+ .card{
+  height: 20rem;
+
+  img{
+    height: 12rem;
+  }
+
+  button{
+    justify-self: center;
+  }
+ }
+}
